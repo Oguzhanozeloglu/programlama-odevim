@@ -12,9 +12,9 @@ namespace ConsoleApplication6
         {
             int sayi1, sayi2;
 
-            Console.WriteLine("Sayıyı Girniz..:");
+            Console.WriteLine("Sayı 1'i Giriniz..: ");
             sayi1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Sayıyı2 Girniz..:");
+            Console.WriteLine("Sayı 2'yi  Giriniz..: ");
             sayi2 = Convert.ToInt32(Console.ReadLine());
 
             if (sayi1 > sayi2)
