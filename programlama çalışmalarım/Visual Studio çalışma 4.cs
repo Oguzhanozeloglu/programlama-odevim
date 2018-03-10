@@ -12,21 +12,17 @@ namespace ConsoleApplication5
         {
             char cinsiyet;
             int yas;
-            Console.Write("lütfen cinsiyetinizi giriniz (E/K):");
+            Console.Write("lütfen cinsiyetinizi giriniz (E/K): ");
             cinsiyet=Convert.ToChar(Console.ReadLine());
-            Console.Write("Lütfen yaşınızı giriniz:");
+            Console.Write("Lütfen yaşınızı giriniz: ");
             yas = Convert.ToInt32(Console.ReadLine());
-                if (((cinsiyet == 'E') || (cinsiyet == 'e')) && (yas >= 20))
-                {
+                if (((cinsiyet == 'E') || (cinsiyet == 'e')) && (yas >= 20)) {
                     Console.WriteLine("Askere gidebilir");
                 }
-                else
-                {
+                else {
                     Console.WriteLine("Askere gidemez");
                 }
             Console.ReadKey();
-
-
         }
     }
 }
