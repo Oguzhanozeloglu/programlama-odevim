@@ -10,12 +10,12 @@ namespace _4554148945
     {
         static void Main(string[] args)
         {
-            Console.Write("İstiklal Marşı yazarımız kimdir");
+            Console.Write("İstiklal Marşı yazarımız kimdir? ");
                 string cevap=Console.ReadLine();
             if (cevap=="Mehmet Akif Ersoy")
-            Console.Write("Tebrikler doğru cevap");
+                Console.Write("Tebrikler! Doğru cevap");
             else
-            Console.Write("Malesef yanlış cevap");
+                Console.Write("Maalesef yanlış cevap");
             Console.ReadLine();
         }
     }
