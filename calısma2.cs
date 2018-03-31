@@ -7,7 +7,7 @@ using System;
  using System.Text;
  namespace calısma2
  {
- calss Program
+ class Program
  {
  Static void Main(string[] args)
  {
